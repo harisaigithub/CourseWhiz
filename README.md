@@ -75,15 +75,15 @@ Open the link provided in the terminal to access the application.
 Note:
 Hosting the tool on Huggingface Spaces has encountered issues. For now, the tool can only be run on localhost by following the instructions above.
 
-📷 Screenshots
+## 📷 Screenshots
 Homepage & Search Results
 [Watch Demo Video](/Recording%202024-12-30%20234723.mp4)
 
 
-🌐 Hosting Link
+## 🌐 Hosting Link
 The hosting attempt on Huggingface Spaces was unsuccessful. Please deploy locally by following the steps provided above.
 
-📦 Latest Version of README
+## 📦 Latest Version of README
 This README is updated to reflect the latest project changes and deployment guidelines.
 
 Enjoy using CourseWhiz to find the most relevant courses tailored to your learning needs!
