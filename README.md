@@ -65,47 +65,43 @@ This project is licensed under the **MIT License**. Feel free to use, modify, an
    ```bash
    git clone https://github.com/yourusername/CourseWhiz.git
    cd CourseWhiz
-   ```
+Install the required dependencies:
 
-2. **Install the required dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+bash
+Copy code
+pip install -r requirements.txt
+Scrape the course data:
 
-3. **Scrape the course data**:
-   ```bash
-   python scripts/scrape_data.py
-   ```
+bash
+Copy code
+python scripts/scrape_data.py
+Generate embeddings for the courses:
 
-4. **Generate embeddings for the courses**:
-   ```bash
-   python scripts/generate_embeddings.py
-   ```
+bash
+Copy code
+python scripts/generate_embeddings.py
+Run the application locally:
 
-5. **Run the application locally**:
-   ```bash
-   streamlit run app/app.py
-   ```
+bash
+Copy code
+streamlit run app/app.py
+Open the link provided in the terminal (typically http://localhost:8501) to access the application.
 
-6. **Open the link provided in the terminal** (typically `http://localhost:8501`) to access the application.
+## 📷 Screenshots & Demo
+Demo Video
 
----
 
-## 📷 Screenshots
-### Homepage & Search Results
-
-### Demo Video
-[![Watch Demo]
-https://github.com/user-attachments/assets/ebdd2b9f-10d2-4c22-a814-4c5177a81d46
+https://github.com/user-attachments/assets/ab605be5-92de-4436-b33b-38e77535b79a
 
 
 
----
+Screenshots
+Homepage
+
+Search Results
 
 ## 🌐 Hosting Link
 The hosting attempt on Huggingface Spaces was unsuccessful. Please deploy locally by following the steps provided above.
-
----
 
 ## 📆 Latest Version of README
 This README is updated to reflect the latest project changes and deployment guidelines.
