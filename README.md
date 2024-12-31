@@ -95,7 +95,7 @@ This project is licensed under the **MIT License**. Feel free to use, modify, an
 ### Homepage & Search Results
 
 ### Demo Video
-[![Watch Demo] (media/demo_thumbnail.png) (https://github.com/user-attachments/assets/ebdd2b9f-10d2-4c22-a814-4c5177a81d46)
+[![Watch Demo](https://github.com/user-attachments/assets/ebdd2b9f-10d2-4c22-a814-4c5177a81d46)
 
 
 
