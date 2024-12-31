@@ -93,10 +93,12 @@ This project is licensed under the **MIT License**. Feel free to use, modify, an
 
 ## 📷 Screenshots
 ### Homepage & Search Results
-![Homepage Screenshot]
 
 ### Demo Video
-[![Watch Demo](media/demo_thumbnail.png)](/Recording%202024-12-30%20234723.mp4)
+[![Watch Demo] 
+https://github.com/user-attachments/assets/ebdd2b9f-10d2-4c22-a814-4c5177a81d46
+
+
 
 ---
 
