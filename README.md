@@ -5,11 +5,11 @@
 ---
 
 ## 🔍 Topic
-A smart course search and recommendation tool built using BERT embeddings and RAG architecture to provide tailored course results for Analytics Vidhya users.
+A smart course search and recommendation tool built using BERT embeddings and Retrieval-Augmented Generation (RAG) architecture to provide tailored course results for Analytics Vidhya users.
 
 ---
 
-## 📖 About
+## 📚 About
 CourseWhiz processes course data (titles, descriptions, and metadata) to create embeddings and calculate similarities using cosine similarity. The tool enables users to search using natural language queries and receive the most relevant course recommendations.
 
 ---
@@ -27,7 +27,7 @@ CourseWhiz processes course data (titles, descriptions, and metadata) to create 
 
 ---
 
-## 📝 Summary
+## 🖍️ Summary
 CourseWhiz enables users to search for courses using keywords or natural language queries. It uses pre-trained BERT embeddings to compare the similarity of user queries with course titles and descriptions. The tool is built with Streamlit for an interactive user interface.
 
 ---
@@ -58,33 +58,54 @@ This project is licensed under the **MIT License**. Feel free to use, modify, an
 ---
 
 ## 🚀 Instructions to Deploy Locally
+
 ### Steps:
-1. Clone this repository:
+
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/CourseWhiz.git
    cd CourseWhiz
-Install the required dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-Run the application locally:
-bash
-Copy code
-streamlit run app.py
-Open the link provided in the terminal to access the application.
-Note:
-Hosting the tool on Huggingface Spaces has encountered issues. For now, the tool can only be run on localhost by following the instructions above.
+   ```
+
+2. **Install the required dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Scrape the course data**:
+   ```bash
+   python scripts/scrape_data.py
+   ```
+
+4. **Generate embeddings for the courses**:
+   ```bash
+   python scripts/generate_embeddings.py
+   ```
+
+5. **Run the application locally**:
+   ```bash
+   streamlit run app/app.py
+   ```
+
+6. **Open the link provided in the terminal** (typically `http://localhost:8501`) to access the application.
+
+---
 
 ## 📷 Screenshots
-Homepage & Search Results
-[Watch Demo Video](/Recording%202024-12-30%20234723.mp4)
+### Homepage & Search Results
+![Homepage Screenshot]
 
+### Demo Video
+[![Watch Demo](media/demo_thumbnail.png)](/Recording%202024-12-30%20234723.mp4)
+
+---
 
 ## 🌐 Hosting Link
 The hosting attempt on Huggingface Spaces was unsuccessful. Please deploy locally by following the steps provided above.
 
-## 📦 Latest Version of README
+---
+
+## 📆 Latest Version of README
 This README is updated to reflect the latest project changes and deployment guidelines.
 
 Enjoy using CourseWhiz to find the most relevant courses tailored to your learning needs!
-
