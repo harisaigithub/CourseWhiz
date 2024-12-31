@@ -55,6 +55,7 @@ This project is licensed under the **MIT License**. Feel free to use, modify, an
 - Python 3.8 or higher
 - Libraries: `streamlit`, `transformers`, `torch`, `numpy`, `scikit-learn`
 
+
 ---
 
 ## 🚀 Instructions to Deploy Locally
@@ -65,28 +66,31 @@ This project is licensed under the **MIT License**. Feel free to use, modify, an
    ```bash
    git clone https://github.com/yourusername/CourseWhiz.git
    cd CourseWhiz
-Install the required dependencies:
+   ```
 
-bash
-Copy code
-pip install -r requirements.txt
-Scrape the course data:
+2. **Install the required dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-bash
-Copy code
-python scripts/scrape_data.py
-Generate embeddings for the courses:
+3. **Scrape the course data**:
+   ```bash
+   python scripts/scrape_data.py
+   ```
 
-bash
-Copy code
-python scripts/generate_embeddings.py
-Run the application locally:
+4. **Generate embeddings for the courses**:
+   ```bash
+   python scripts/generate_embeddings.py
+   ```
 
-bash
-Copy code
-streamlit run app/app.py
-Open the link provided in the terminal (typically http://localhost:8501) to access the application.
+5. **Run the application locally**:
+   ```bash
+   streamlit run app/app.py
+   ```
 
+6. **Open the link provided in the terminal** (typically `http://localhost:8501`) to access the application.
+
+---
 ## 📷 Screenshots & Demo
 Demo Video
 
